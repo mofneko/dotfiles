@@ -163,8 +163,9 @@ defaults write com.apple.dock showhidden -bool true
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
-defaults write com.apple.dock springboard-columns -int 8
-defaults write com.apple.dock springboard-rows -int 6
+# Change the layout (rows and columns) of Launchpad
+defaults write com.apple.dock springboard-columns -int 10
+defaults write com.apple.dock springboard-rows -int 10
 
 # Add iOS & Watch Simulator to Launchpad
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
