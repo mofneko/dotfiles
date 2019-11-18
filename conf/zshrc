@@ -5,6 +5,7 @@
 #=====================
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="/usr/local/bin:/usr/bin:$HOME/bin:$PATH"
+export PATH="$HOME/flutter/bin:$PATH"
 export ANDROID_HOME="$HOME/.android-sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
