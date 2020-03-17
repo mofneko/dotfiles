@@ -22,6 +22,7 @@ dotfiles:
 homebrew_packages:
   - reattach-to-user-namespace
   - tmux
+  - gnu-sed
   - direnv
   - wget
   - tree
