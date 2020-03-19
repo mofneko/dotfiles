@@ -23,6 +23,10 @@ homebrew_packages:
   - reattach-to-user-namespace
   - tmux
   - gnu-sed
+  - apktool
+  - exiftool
+  - yarn
+  - nodebrew
   - direnv
   - wget
   - tree
