@@ -24,6 +24,7 @@ homebrew_packages:
   - tmux
   - gnu-sed
   - apktool
+  - imagemagick
   - exiftool
   - yarn
   - nodebrew
